@@ -1,0 +1,33 @@
+{
+    "name": "printzhucheng/curl-http-package",
+    "description": "A simple and powerful cURL HTTP client for PHP",
+    "type": "library",
+    "keywords": ["curl", "http", "client", "request", "php"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "printzhucheng",
+            "email": "printzhucheng@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Printzhucheng\\CurlHttpPackage\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Printzhucheng\\CurlHttpPackage\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
